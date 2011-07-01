@@ -1,0 +1,4 @@
+#xcode specific
+
+*.DS_Store
+build/*
