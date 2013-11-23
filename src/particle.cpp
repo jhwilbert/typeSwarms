@@ -11,7 +11,7 @@ particle::particle(){
 	cohesion.distance		= 90;
 	
 	seperation.strength		= .03;
-    alignment.strength		= .015;
+        alignment.strength		= .015;
 	cohesion.strength		= .015;
 	
 }
@@ -22,7 +22,7 @@ void particle::resetForce(){
     frc.set(0,0);
 	
 	// reset the flock info: 
-	cohesion.count 	    = 0;
+	cohesion.coun           = 0;
 	seperation.count	= 0;
 	alignment.count		= 0;
 	
@@ -352,7 +352,6 @@ void particle::draw(){
 	}
 	//ofEndShape();
 }
-
 
 //------------------------------------------------------------
 void particle::bounceOffWalls(){
